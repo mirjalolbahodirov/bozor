@@ -19,6 +19,7 @@ develop-eggs
 .installed.cfg
 lib
 lib64
+product
 
 # Installer logs
 pip-log.txt
@@ -62,6 +63,8 @@ bozor/settings/production.py
 # collect static output directory
 bozor/assets/
 bozor/static/
+bozor/product/
+product
 
 .DS_Store
 
