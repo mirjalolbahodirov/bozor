@@ -12,8 +12,8 @@
  Microsoft Windows [Version 6.1.7601]
 (c) Корпорация Майкрософт (Microsoft Corp.), 2009. Все права защищены.
 
-C:\Users\VED>mkvirtualenv my_project
-(as) C:\Users\%User>
+ - C:\Users\VED>mkvirtualenv my_project
+ - (as) C:\Users\%User>
 *подробности по установке http://docs.python-guide.org/en/latest/dev/virtualenvs/
  - git clone https://github.com/mirjalolbahodirov/bozor.git
 2) Сделать запрос командой pip install -r requirements\base.txt
