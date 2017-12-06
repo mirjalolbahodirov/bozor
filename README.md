@@ -12,7 +12,7 @@
  Microsoft Windows [Version 6.1.7601]
 (c) Корпорация Майкрософт (Microsoft Corp.), 2009. Все права защищены.
 
- - C:\Users\VED>mkvirtualenv my_project
+ - C:\Users\VED>mkvirtualenv as
  - (as) C:\Users\%User>
  - *подробности по установке http://docs.python-guide.org/en/latest/dev/virtualenvs/
  - git clone https://github.com/mirjalolbahodirov/bozor.git
