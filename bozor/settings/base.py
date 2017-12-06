@@ -1,6 +1,11 @@
 import os
 import sys
+"""
 
+1 )  Rasim ochilmayapti xatolik (Product with ID "2/change/product/mikke-pis-mennyj-stol-belyj_23483_PE279640_S4_WzFU8sH.jpg" doesn't exist. Perhaps it was deleted? )
+2 )  Tags ni kichkinaro shriftda yozish
+3)   Price bo'limiga valyutani yozish  iloji bo'sa $ da yozib srazu ЦБ ni kursi bilan konvert qibersin
+"""
 # PATH vars
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,7 +31,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'shop.apps.ShopConfig'
+    'shop.apps.ShopConfig',
+
 ]
 
 PROJECT_APPS = [
@@ -57,9 +63,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'bozor',
         'USER': 'postgres',
-        'PASSWORD': '',
-        'HOST': '',  # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '',  # Set to empty string for default.
+        'PASSWORD': '3570827',
+        'HOST': '127.0.0.1',  # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+        'PORT': '5432',  # Set to empty string for default.
     }
 }
 
