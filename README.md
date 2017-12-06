@@ -17,5 +17,5 @@
  - *подробности по установке http://docs.python-guide.org/en/latest/dev/virtualenvs/
  - git clone https://github.com/mirjalolbahodirov/bozor.git
 2) Сделать запрос командой pip install -r requirements\base.txt
-3) Сделать миргацию managa.py makemigrations и managy.py migrate
+3) Сделать миргацию manage.py makemigrations и manage.py migrate
 4) И ввести ваше данные из Postgresql БД.
