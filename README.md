@@ -1,4 +1,6 @@
 # bozor
  Это проект находиться в стадии тестирования.
-1) Для того чтобы установить нужно установить всё необходимое командой pip intall -r requirements\base.txt.
-2) И ввести ваше данные из Postgresql БД.
+1) Для того чтобы установить нужно установить https://github.com/mirjalolbahodirov/bozor.git
+2) Сделать запрос командой pip intall -r requirements\base.txt
+3) Сделать миргацию managa.py makemigrations и managy.py migrate
+4) И ввести ваше данные из Postgresql БД.
